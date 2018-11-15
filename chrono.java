@@ -7,11 +7,7 @@ package Banque;
 
 import java.util.TimerTask;
 
-/**
- *
- * @author emiliendenot
- */
-public class MyTask extends TimerTask{
+public class chrono extends TimerTask{
         
     private int chrono = 126;
         
