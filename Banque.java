@@ -48,7 +48,7 @@ public class Banque {
         
         Scanner sc = new Scanner(System.in);
         Timer timer = new Timer();
-        MyTask t = new MyTask();
+        chrono t = new chrono();
         timer.schedule(t, 0, 1000);   
        
         sol1 = Banque.myRandom(); 
